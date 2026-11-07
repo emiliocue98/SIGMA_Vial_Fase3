@@ -104,9 +104,3 @@ Lo impone el **código** (no depende de la IA):
   las Fases 1-2, marcados allí como «[Confirmar con normativa local]».
 - Supuestos de la calculadora: fase peatonal exclusiva una vez por ciclo; flujo 60/40 entre acceso
   principal y secundario; grado de saturación objetivo de 0.9.
-
-## Nota para el equipo
-
-Los nombres de las intersecciones (I1 a I4) y los volúmenes de demanda son provisionales. Al levantar el
-aforo en campo, sustituir los valores en `generar_telemetria.py`; al tener SUMO corriendo, reemplazar
-`datos/metricas_simulacion.csv` por la salida real conservando los nombres de columna.
