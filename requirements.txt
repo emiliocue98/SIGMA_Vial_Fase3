@@ -1,0 +1,7 @@
+# Probado con Python 3.12 (CrewAI no soporta 3.14).
+# pandas fijo en 3.0.5: la 3.1.1 cargo un DLL bloqueado por la politica de
+# control de aplicaciones de Windows durante las pruebas.
+crewai==1.15.35
+pandas==3.0.5
+scipy==1.18.1
+pydantic==2.12.5

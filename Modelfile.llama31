@@ -1,0 +1,5 @@
+# llama3.1:8b con contexto ampliado para el Crew de SIGMA-Vial.
+# Crear una vez:  ollama create sigma-llama31 -f Modelfile
+FROM llama3.1:latest
+PARAMETER num_ctx 16384
+PARAMETER temperature 0.2
